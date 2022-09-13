@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    margin-top: -6px;
+}
+
+*::selection {
+    color: aliceblue;
+    background-color: orange;
+}
+
+a:link {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: aliceblue;
+    border: solid transparent;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: orange;
+    border: solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: aliceblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav {
+    /* background-color: #FCBA41; */
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 0.5cm;
+    min-width: 98vw;
+    z-index: 50;
+}
+
+.nn {
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style-type: none; 
+}
+
+ul>li:nth-child(4) {
+    margin-right: 1cm;
+}
+
+ul>li {
+    padding-right: 10px;
+}
+
+.b {
+    height: 201px;
+    width: 201px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 63px;
+    animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both}
+
+.c {
+    letter-spacing: 4px;
+    font-size: large;
+    font-family: 'Poppins';
+    text-align: center;
+    text-shadow: 0px 5px 7px grey;
+    -webkit-animation:tracking-in-contract-bck 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract-bck 1s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+.d {
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+/* .e {
+    border-bottom: dashed grey 2px;
+    width: 80%;
+    margin: auto;
+} */
+
+.f {
+    margin-right: 2cm;
+    margin-left: 2cm;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.g {
+    border: solid transparent;
+    margin-left:5cm;
+    margin-bottom: 0cm;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    /* background-color: antiquewhite; */
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.i {
+    text-indent: 2cm;
+    padding-top: 0cm;
+}
+
+.k {
+    border: solid transparent;
+    margin-left:4cm;
+    margin-right: 4cm;
+    margin-bottom: 0cm;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.l {
+    float: left;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-left: 7cm;
+}
+
+.n {
+    border: solid transparent;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    margin-bottom: 0cm;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.m {
+    float: right;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-right: 7cm;
+}
+/* .g, .k, .n {
+    border-left: solid skyblue 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+} */
+
+
+@keyframes tracking-in-contract-bck{0%{letter-spacing:1em;transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
+@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}
